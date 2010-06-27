@@ -1,12 +1,10 @@
 {
-	Actions = {
-		// Define action descriptions here, for example
-		// "myAction:" = id;
-	};
+	Actions = {};
 	Outlets = {
-		// Define outlet descriptions here, for example
-		// myOutlet = NSView;
+		tabView = NSTabView;
+		delegate = id;
+		partnerView = id;
 	};
-    ClassName = PSMTabBarControl; 
-    SuperClass = NSControl; 
+	ClassName = PSMTabBarControl;
+	SuperClass = NSControl;
 }
